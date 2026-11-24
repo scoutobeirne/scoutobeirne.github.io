@@ -163,6 +163,12 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.25; mar
 .entry { grid-template-columns: 1fr; }
 .entry .photo { display: none; }
 
+.posts { margin: 4px 0 0; padding-left: 22px; }
+.posts li { margin-bottom: 6px; padding-left: 4px; }
+.posts li::marker { color: var(--muted); font-variant-numeric: tabular-nums; }
+.posts a { font-weight: 500; }
+.posts .date { color: var(--muted); font-size: 13px; margin-left: 6px; white-space: nowrap; }
+
 /* ---------- Services ---------- */
 
 .services { list-style: none; padding: 0; margin: 12px 0 0; }
